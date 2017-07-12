@@ -11,8 +11,12 @@ header a{
   font-size:18px;
 }
 
-footer a{
-  align: left !important;
+div.footer{
+  background-color: dimgray;
+}
+
+div.footer nav{
+  text-align: left !important;
 }
 
 .signature{
@@ -27,7 +31,7 @@ h1,h2,h3 {
 }
 
 h1{
-  font-size: 100px;
+  font-size: 70px;
 }
 
 
@@ -38,6 +42,6 @@ h2 {
 h3,.banner{
   font-size: 23px;
 }
-.banner,header,header a,footer a{
+.banner,header,header a,div.footer, div.footer nav a {
   color:white;
 }
