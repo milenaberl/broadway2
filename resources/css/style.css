@@ -10,20 +10,8 @@ header{
 header a{
   font-size:18px;
 }
-
-div.footer{
-  background-color: dimgray;
-}
-
-div.footer nav{
-  text-align: left !important;
-}
-
-.signature{
-font-size: 11px;
-}
-.banner{
-  background-image: url("../images/the-flatiron-building.png");
+header, header a,.banner,footer a {
+  color:white;
 }
 
 h1,h2,h3 {
@@ -34,7 +22,6 @@ h1{
   font-size: 70px;
 }
 
-
 h2 {
   font-size: 32px;
 }
@@ -42,6 +29,16 @@ h2 {
 h3,.banner{
   font-size: 23px;
 }
-.banner,header,header a,div.footer, div.footer nav a {
-  color:white;
+.banner{
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+footer{
+  background-color: dimgray;
+}
+footer nav {
+  text-align: left;
+  }
+.signature{
+font-size: 11px;
 }
