@@ -6,29 +6,37 @@
 header{
   background-image: url("../images/the-flatiron-building.png");
 }
-footer{
-  background-color: dimgray;
-  text-align: left !important;
+
+header a{
+  font-size:18px;
 }
+
+footer a{
+  align: left !important;
+}
+
 .signature{
 font-size: 11px;
 }
 .banner{
   background-image: url("../images/the-flatiron-building.png");
-
 }
 
-h1,h2,h3{
+h1,h2,h3 {
   font-weight: bold;
 }
+
 h1{
-  font-size: 70 px;
+  font-size: 100px;
 }
+
+
 h2 {
-  font-size: 32 px;
+  font-size: 32px;
 }
+
 h3,.banner{
-  font-size: 23 px;
+  font-size: 23px;
 }
 .banner,header,header a,footer a{
   color:white;
