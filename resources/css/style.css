@@ -4,7 +4,7 @@
 }
 
 header{
-  background-image: url("/images/the-flatiron-building.png");
+  background-image: url("../images/the-flatiron-building.png");
 }
 footer{
   background-color: dimgray;
@@ -14,7 +14,7 @@ footer{
 font-size: 11px;
 }
 .banner{
-  background-image: url("/images/the-flatiron-building.png");
+  background-image: url("../images/the-flatiron-building.png");
 
 }
 
@@ -30,6 +30,6 @@ h2 {
 h3,.banner{
   font-size: 23 px;
 }
-.banner,header,footer a{
+.banner,header,header a,footer a{
   color:white;
 }
